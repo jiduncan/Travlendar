@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Travlendar Login Register</string>
     <string name="text_accounts">All Accounts</string>
+    <string name="hint_email">Email</string>
 </resources>
