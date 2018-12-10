@@ -44,7 +44,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
        onCreate(db);
    }
 
-   public void addUser(User user) {
+    @Override
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        
+    }
+
+    public void addUser(User user) {
        SQLiteDatabase db = this.getWritableDatabase();
 
        ContentValues values = new ContentValues();
