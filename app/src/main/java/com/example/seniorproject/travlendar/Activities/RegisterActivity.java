@@ -1,4 +1,4 @@
-package com.example.seniorproject.travlendar.Activities;
+package com.example.seniorproject.travlendar.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
