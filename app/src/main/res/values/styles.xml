@@ -12,4 +12,8 @@
         <item name="colorControlActivated">@color/colorText</item>
     </style>
 
+    <!--<style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    -->
 </resources>
