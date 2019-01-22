@@ -11,7 +11,7 @@ import android.support.v7.widget.RecyclerView;
 
 import com.example.seniorproject.travlendar.R;
 import com.example.seniorproject.travlendar.adapters.UsersRecyclerAdapter;
-import com.example.seniorproject.travlendar.modal.User;
+import com.example.seniorproject.travlendar.model.User;
 import com.example.seniorproject.travlendar.SQL_Database.DatabaseHelper;
 
 import java.util.ArrayList;

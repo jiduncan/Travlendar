@@ -3,13 +3,13 @@ package com.example.seniorproject.travlendar.SQL_Database;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase;
-import com.example.seniorproject.travlendar.modal.User;
+import android.database.sqlite.SQLiteOpenHelper;
+
+import com.example.seniorproject.travlendar.model.User;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import static java.sql.Types.NULL;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     // Database Version
