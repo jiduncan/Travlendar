@@ -1,4 +1,4 @@
-package com.example.seniorproject.travlendar.model;
+package com.example.seniorproject.travlendar.modal;
 
 public class User {
     private int id;

@@ -13,7 +13,7 @@ import android.view.View;
 
 import com.example.seniorproject.travlendar.R;
 import com.example.seniorproject.travlendar.helpers.InputValidation;
-import com.example.seniorproject.travlendar.model.User;
+import com.example.seniorproject.travlendar.modal.User;
 import com.example.seniorproject.travlendar.SQL_Database.DatabaseHelper;
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener{

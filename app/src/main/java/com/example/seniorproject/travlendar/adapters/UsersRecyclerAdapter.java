@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.seniorproject.travlendar.R;
-import com.example.seniorproject.travlendar.model.User;
+import com.example.seniorproject.travlendar.modal.User;
 
 import java.util.List;
 
