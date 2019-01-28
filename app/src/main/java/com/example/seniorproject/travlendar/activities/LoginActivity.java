@@ -12,7 +12,6 @@ import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
 import com.example.seniorproject.travlendar.R;
-import com.example.seniorproject.travlendar.activities.RegisterActivity;
 import com.example.seniorproject.travlendar.SQL_Database.DatabaseHelper;
 import com.example.seniorproject.travlendar.helpers.InputValidation;
 
@@ -118,11 +117,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 , textInputEditTextPassword.getText().toString().trim())) {
 
 
-            Intent accountsIntent = new Intent(activity, UsersListActivity.class);
-            accountsIntent.putExtra("EMAIL", textInputEditTextEmail.getText().toString().trim());
-            emptyInputEditText();
-            startActivity(accountsIntent);
-
+            //Intent accountsIntent = new Intent(activity, UsersListActivity.class);
+            //accountsIntent.putExtra("EMAIL", textInputEditTextEmail.getText().toString().trim());
+            //emptyInputEditText();
+            //startActivity(accountsIntent);
+            Intent calendarIntent = new Intent(activity, CalendarActivity.class);
+            startActivity(calendarIntent);
 
         } else {
             // Snack Bar to show success message that record is wrong

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="example_switch"
+        android:summary="@string/switch_summary"
+        android:title="@string/switch_title" />
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="notification_switch"
+        android:summary="Turn notifications on or off"
+        android:title="Notifications" />
+
+    <ListPreference
+        android:key="@string/list_pref_mode_of_trans"
+        android:title="Modes of Transportation"
+        android:entries="@array/mode_of_trans_names_array"
+        android:entryValues="@array/mode_of_trans_values_array"
+        android:defaultValue="Car"
+        android:summary="Choose your preferred mode of transportation" />
+
+    <ListPreference
+        android:key="@string/list_pref_font_color"
+        android:title="Font Color"
+        android:entries="@array/font_color_names_array"
+        android:entryValues="@array/font_color_values_array"
+        android:defaultValue="#dc143c"
+        android:summary="Choose Font Color"/>
+
+    <ListPreference
+        android:key="@string/list_pref_font_size"
+        android:title="Font Size"
+        android:entries="@array/font_size_names_array"
+        android:entryValues="@array/font_size_values_array"
+        android:defaultValue="24dp"
+        android:summary="Choose Font Size"/>
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="theme_switch"
+        android:summary="Turn Dark Them on or off"
+        android:title="Dark Theme" />
+</PreferenceScreen>

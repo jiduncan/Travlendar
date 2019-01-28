@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_color_names_array">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Black</item>
+        <item>Orange</item>
+    </string-array>
+
+    <string-array name="font_color_values_array">
+        <item>#00ffff</item>
+        <item>#f0ffff</item>
+        <item>#f5f5dc</item>
+        <item>#fff8dc</item>
+        <item>#fffff0</item>
+    </string-array>
+
+    <string-array name="font_size_names_array">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="font_size_values_array">
+        <item>10dp</item>
+        <item>30dp</item>
+        <item>50dp</item>
+    </string-array>
+
+    <string-array name="mode_of_trans_names_array">
+        <item>Car</item>
+        <item>Bike</item>
+        <item>Walking</item>
+        <item>Public Transport</item>
+    </string-array>
+
+    <string-array name="mode_of_trans_values_array">
+        <item>Car</item>
+        <item>Bike</item>
+        <item>Walking</item>
+        <item>Public Transport</item>
+    </string-array>
+</resources>
