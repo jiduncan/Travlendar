@@ -34,7 +34,7 @@
         <item name="android:textColor">@android:color/holo_orange_dark</item>
     </style>
 
-    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Medium">
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Large">
         <item name="android:textColor">@android:color/holo_green_dark</item>
     </style>
 
