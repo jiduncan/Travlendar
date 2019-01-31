@@ -7,4 +7,11 @@
     <color name="colorText">#000000</color>
     <color name="colorTextHint">#51d8c7</color>
     <color name="colorPreferenceCategory">#f44280</color>
+
+    <!-- Calendar -->
+    <color name="colorCalPrimary">#3F51B5</color>
+    <color name="colorCalPrimaryDark">#303F9F</color>
+    <color name="colorCalAccent">#FF4081</color>
+    <color name="colorCalWhite">#ffffff</color>
+    <color name="colorCalBlack">#000000</color>
 </resources>
