@@ -23,11 +23,11 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-<<<<<<< HEAD
+
                                       <entry key="url" value="jar:file:/D:/Programs/AndroidStudio/plugins/android/lib/android.jar!/images/material_design_icons/content/ic_add_circle_black_24dp.xml" />
-=======
+
                                       <entry key="url" value="jar:file:/D:/Programs/AndroidStudio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_search_black_24dp.xml" />
->>>>>>> master
+
                                     </map>
                                   </option>
                                 </PersistentState>
