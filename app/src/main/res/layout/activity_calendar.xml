@@ -28,11 +28,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
+<<<<<<< HEAD
         android:layout_margin="@dimen/fab_margin"/>
         <!--app:srcCompat="@drawable/ic_add_circle_black_24dp"--> />
         <!--android:textStyle="bold"
         android:textSize="12sp"
         android:text="@string/add_event"-->
 
+=======
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_add_circle_blue_72dp"
+        app:fabSize="normal"
+        app:borderWidth="30dp"/>
+>>>>>>> master
 
 </android.support.design.widget.CoordinatorLayout>
